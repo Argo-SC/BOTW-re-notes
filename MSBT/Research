@@ -5,7 +5,7 @@ Text Delay Timer (Text_Delay_EUen)
 	37 = ~1.85sec
 	4B = ~2.53sec
 	every 30 decimal turned into hex adds a 1 second delay.
-		JPN version does not delay text and these 4 bit (No_Text_Delay_EUvsJPN.PNG)
+		JPN version does not delay text and these 4 bits are not present (No_Text_Delay_EUvsJPN.PNG)
 
 Toggle Red Highlight Color (Highlight_Red_EUen.PNG)
 	After the string 00 0E 00 00 00 03 00 02 00 XX XX
