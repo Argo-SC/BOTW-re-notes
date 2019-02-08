@@ -1,0 +1,14 @@
+Text Delay Timer (Text_Delay_EUen)
+	String 00 00 00 XX Most likely applies to the timer.
+	XX = speed of text.
+	offset 0xE9 and 0x1007
+	37 = ~1.85sec
+	4B = ~2.53sec
+	every 30 decimal turned into hex adds a 1 second delay.
+		JPN version does not delay text and these 4 bit (No_Text_Delay_EUvsJPN.PNG)
+
+Toggle Red Highlight Color (Highlight_Red_EUen.PNG)
+	After the string 00 0E 00 00 00 03 00 02 00 XX XX
+	XX = FF OFF
+	XX = 00 ON
+		Same aplies in the JPN version
