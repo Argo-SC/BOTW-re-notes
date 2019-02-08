@@ -6,7 +6,7 @@ Second  83 - 2.77	159 - 5.25	52	82
 
 Third   76 - 2.53	159 - 5.25	4B	75
 
-Fourth  151 - 5.03	160 - 5.33	96	150
+Fourth  151 - 5.05	160 - 5.35	96	150
 
 30 = 1 sec
 Thesis
@@ -18,3 +18,7 @@ Fourth trial tested my thesis above.
 
 With this data I can conclude that the hex code when connverted to decimal
 makes DEC 30 = 1 second delay true.
+
+Margins for error
+	Record Speed
+	Game Speed
