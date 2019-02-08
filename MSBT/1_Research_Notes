@@ -4,7 +4,7 @@ Text Delay Timer (Text_Delay_EUen)
 	offset 0xE9 and 0x1007
 	37 = ~1.85sec
 	4B = ~2.53sec
-	every 30 decimal turned into hex adds a 1 second delay.
+	every 30 decimal turned into hex adds a 1 second delay or 30 frame delay.
 		JPN version does not delay text and these 4 bits are not present (No_Text_Delay_EUvsJPN.PNG)
 
 Toggle Red Highlight Color (Highlight_Red_EUen.PNG)
