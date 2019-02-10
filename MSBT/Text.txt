@@ -1,0 +1,13 @@
+000E 0000 0003 0002 0000
+
+AABB CCDD EEFF GGHH IIJJ
+
+FF = Font	
+		0001 = Hylian Text
+		0003 = English	
+		
+		
+JJ = color
+
+
+HH = ?

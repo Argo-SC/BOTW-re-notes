@@ -1,0 +1,36 @@
+Text Delay Timer (Text_Delay_EUen.PNG)
+	String 00 00 00 XX Most likely applies to the timer.
+	XX = speed of text.
+	offset 0xE9 and 0x1007
+	37 = ~1.85sec
+	4B = ~2.53sec
+	every 30 decimal turned into hex adds a 1 second delay or 30 frame delay. (Delay_Test.txt)
+		JPN version does not delay text and these 4 bits are not present (No_Text_Delay_EUvsJPN.PNG)
+		This does NOT work cutscenes that do not already possess this code.
+
+Toggle Red Highlight Color (Highlight_Red_EUen.PNG)
+	After the string 00 0E 00 00 00 03 00 02 00 XX XX
+	XX = FF OFF
+	XX = 00 ON
+		Same aplies in the JPN version
+		
+Toggle Blue Highlight Color (Hightlight_Blue_EUen.PNG)
+	Similar to the Red Highlight, 00 0E 00 00 00 03 00 02 00 XX YY
+	XX & FF = FF OFF
+	XX = 02 ON
+	YY = 00 ON
+	
+Color Choices (Colour_Test.txt)
+	Based on the info above, 00 0E 00 00 00 03 00 02 00 XX YY refrences color
+	YY is most likely a part of color since 00 is required to view color (defaults to red if different)
+	XX is the color the text will be. 
+	00 = Red
+	01 = Green
+	02 = Blue
+	05 = Orange
+	03 = Gray
+		These are all the combinations that I found through my trails. There might be more colors however
+		I believe that they are reference codes to color rather than the color itself
+
+	XX & YY = FF the color is ended (00 0E 00 00 00 03 00 02 00 FF FF)
+		Both have to be FF otherwise the color does not change from the start

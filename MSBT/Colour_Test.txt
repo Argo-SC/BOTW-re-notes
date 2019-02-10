@@ -1,0 +1,27 @@
+Sheikah Slate Color
+
+00 0E 00 00 00 03 00 02 00 00 00 = Red		In Demo700_0.msbt
+00 0E 00 00 00 03 00 02 00 02 00 = Blue		In Demo701_0.msbt
+00 0E 00 00 00 03 00 02 00 FF FF = Off		In Both documents
+
+
+00 0E 00 00 00 03 00 02 00 XX 00 = Variable Color
+
+By using the Demo700_0.msbt I will change the XX Value that appears to select the color
+By changing the XX to different values, the item "Sheikah Stone" text should change color
+in the sentence "That is a Sheikah Stone."
+
+First trial is changing text to blue as seen in Demo701_0.msbt
+The proceeding trails are testing different combinations to see color changes
+
+Trial 1:	02 = Light Blue (Same blue in Demo701_0.msbt)
+Trial 2:	01 = Green
+Trail 3:	03 = Grey
+Trail 4:	04 = Blue
+Trail 5:	05 = Orange
+Trail 6:	06 = Grey
+Trail 7:	07 = Red
+Trial 8:	0A = Red
+Trail 9:	08 = Red
+
+The XX does change the color however I am unable to find colors beyond these
