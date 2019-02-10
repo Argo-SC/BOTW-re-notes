@@ -2,7 +2,7 @@ Sheikah Slate Color
 
 00 0E 00 00 00 03 00 02 00 00 00 = Red		In Demo700_0.msbt
 00 0E 00 00 00 03 00 02 00 02 00 = Blue		In Demo701_0.msbt
-00 0E 00 00 00 03 00 02 00 FF FF = Off		In Both documents
+00 0E 00 00 00 03 00 02 00 FF FF = White	In Both documents
 
 
 00 0E 00 00 00 03 00 02 00 XX 00 = Variable Color
